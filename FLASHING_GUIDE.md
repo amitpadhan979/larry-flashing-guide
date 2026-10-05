@@ -21,6 +21,8 @@
 
 1. **Read all instructions** through at least once before starting.
 2. **Setup ADB and Fastboot:** Make sure your computer has the latest [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools).
+   - *Pro Tip:* Use a native USB 2.0 port or rear motherboard port rather than a USB 3.0/hub to avoid handshake timeouts during large fastboot transfers.
+   - Verify connection with `adb devices` and `fastboot devices`.
 3. **Check Model Number (Exact Match Required):**
    - Go to **Settings > About Device > Version**.
    - Ensure your model is **`CPH2467`** (or `CPH2465`).
